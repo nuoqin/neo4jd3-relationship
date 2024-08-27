@@ -5,6 +5,30 @@
 
 由于本人不是专业的前端开发者，结合自己的理解和网上搜集，修改neo4jd3的部分代码，实现了以下的效果。
 
+
+
+### 使用
+
+1.安装d3
+
+```
+npm install d3@4.6.0 -S
+```
+
+2.在main.js配置neo4jd3.css全局样式
+
+```
+import './assets/d3/css/neo4jd3.css'
+```
+
+3.复制文件到任意vue2项目中
+
+
+
+4.使用，请参考src下的文件（删除了对图标的支持）
+
+
+
 #### 展示
 ![image](https://github.com/user-attachments/assets/c7f0494d-9e86-44bb-aaae-6ef09dddf087)
 
